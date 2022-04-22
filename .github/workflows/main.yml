@@ -1,4 +1,4 @@
-name: CI
+name: Deployments
 
 # Controls when the workflow will run
 on:
