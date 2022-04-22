@@ -26,7 +26,7 @@ jobs:
   deploy-hmg:
     runs-on: ubuntu-latest
     environment:
-      name: hmg
+      name: hml
       url: 'https://www.google.com.br'
     needs: deploy-dev
     steps:
