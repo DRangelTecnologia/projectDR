@@ -23,7 +23,7 @@ jobs:
         run: echo deploy dev
         
         
-  deploy-hmg:
+  deploy-hml:
     runs-on: ubuntu-latest
     environment:
       name: hml
@@ -38,7 +38,7 @@ jobs:
     environment:
       name: prd
       url: 'https://www.google.com.br'
-    needs: deploy-hmg
+    needs: deploy-hml
     steps:
       - name: Run a one-line script
         run: echo deploy prd
